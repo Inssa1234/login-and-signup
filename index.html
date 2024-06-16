@@ -108,7 +108,7 @@ p a{
     <form id="form1">
       <div class="log login">
         <h1>Log In</h1>
-        <input name="Email" type="email" id="log_email" placeholder="User Email" required="required"/>
+        <input name="Email" type="email" autocomplete="on" autofocus="autofocus" id="log_email" placeholder="User Email" required="required"/>
         <input name="psw" type="password" placeholder="User Password" id="psw" required="required"/>
         <input id="submit" value="Login" type="submit"/>
         <p>If you have not an account , you can <a href="#" id="signup">sign up</a></p>
@@ -117,7 +117,7 @@ p a{
     <form id="form2">
       <div class="sign signup">
         <h1>Sign up</h1>
-        <input type="text" placeholder="Username" id="username" required/>
+        <input autocomplete="on" autofocus="autofocus" type="text" placeholder="Username" id="username" required/>
         <input name="Email" type="email" a  required="required" id="sign_email" placeholder="User Email"/>
         <input name="psw" type="password" placeholder="User Password" id="psw" required="required"/>
         <input id="submit" type="submit" value="Sign in"/>
